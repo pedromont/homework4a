@@ -27,7 +27,7 @@ public class PathInstantiate : MonoBehaviour {
 			transform.Translate (5f, 0f, 0f);
 			counter++;
 		} else {
-			Destroy (this.gameObject);
+			//Destroy (this.gameObject);
 		}
 	}
 }

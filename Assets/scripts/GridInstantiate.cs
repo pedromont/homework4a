@@ -13,10 +13,10 @@ public class GridInstantiate : MonoBehaviour {
 
 		for (int x = 0; x<5; x++) {
 			for (int z = 0; z<5 ; z++){
-				//pos += new Vector3 (x * 5f, 0f ,z * 5f);
+
 				randomp = Random.Range(0f, 1f);
 				Vector3 poss = new Vector3 (x * 5f, 0f ,z * 5f);
-				//transform.position Vector3 pos;
+
 
 				if(randomp>0.30f){
 					Transform newClone = (Transform)Instantiate (floorPrefab2, poss, transform.rotation);
@@ -34,6 +34,9 @@ public class GridInstantiate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		//regenerate gridinstantiate
+		if ( Input.GetKeyDown (KeyCode.R) ) {
+			Application.LoadLevel ( Application.loadedLevel );
+		}
 	}
 }
