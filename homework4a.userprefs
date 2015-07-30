@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\GridInstantiate.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\NPC.cs">
     <Files>
-      <File FileName="Assets\scripts\GridInstantiate.cs" Line="32" Column="5" />
-      <File FileName="Assets\scripts\PathInstantiate.cs" Line="30" Column="6" />
-      <File FileName="..\week4aa\Assets\scripts\ProcGenDemo.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\GridInstantiate.cs" Line="28" Column="1" />
+      <File FileName="Assets\scripts\PathInstantiate.cs" Line="33" Column="72" />
+      <File FileName="Assets\scripts\NPC.cs" Line="21" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
